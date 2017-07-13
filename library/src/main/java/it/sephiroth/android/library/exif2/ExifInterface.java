@@ -18,7 +18,6 @@ package it.sephiroth.android.library.exif2;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.SystemClock;
 import android.util.Log;
 import android.util.SparseIntArray;
 
@@ -798,7 +797,6 @@ public class ExifInterface {
 	 * Returns true if tag TID is one of the following: {@link #TAG_EXIF_IFD},
 	 * {@link #TAG_GPS_IFD}, {@link #TAG_JPEG_INTERCHANGE_FORMAT},
 	 * {@link #TAG_STRIP_OFFSETS}, {@link #TAG_INTEROPERABILITY_IFD}
-	 * <p/>
 	 * Note: defining tags with these TID's is disallowed.
 	 *
 	 * @param tag a tag's TID (can be obtained from a defined tag constant with

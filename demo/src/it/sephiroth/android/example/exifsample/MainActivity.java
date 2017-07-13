@@ -39,9 +39,7 @@ import it.sephiroth.android.example.exifsample.utils.IOUtils;
 import it.sephiroth.android.library.exif2.BuildConfig;
 import it.sephiroth.android.library.exif2.ExifInterface;
 import it.sephiroth.android.library.exif2.ExifTag;
-import it.sephiroth.android.library.exif2.ExifUtil;
 import it.sephiroth.android.library.exif2.IfdId;
-import it.sephiroth.android.library.exif2.Rational;
 
 public class MainActivity extends Activity implements OnClickListener {
 
